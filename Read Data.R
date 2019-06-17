@@ -3,7 +3,7 @@ require(tidyverse)
 require(readxl)
 
 
-# Read in the raw data not using the row names
+# Read in the raw data as a tibble not using the row names
 # because they contain non-ascii characters
 # Assign NA to all relevant strings
 as_tibble(read_excel("Survey 6:17:19.xlsx", 

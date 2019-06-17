@@ -159,7 +159,7 @@ DSSurveyraw %>%
          DiagnosesMEN_OCD = ...157,
          DiagnosesMENwho_OCD = ...158,
          DiagnosesMENage_OCD = ...159,
-         DiagnosesMEN_Schizophrenia) -> DSSurvey
+         DiagnosesMEN_Schizophrenia = ...160) -> DSSurvey
 
 
 
